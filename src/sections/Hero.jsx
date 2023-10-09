@@ -11,7 +11,7 @@ const Hero = () => {
   return (
     <section
       id="home"
-      className="w-full flex xl:flex-row flex-col justify-center min-h-screen gap-10 max-container"
+      className="w-full flex xl:flex-row flex-col justify-center min-h-screen gap-10 max-w-[1240px] mx-auto"
     >
       <div className="relative xl:w-2/5 flex flex-col justify-center items-start w-full  max-xl:padding-x mx-auto pt-28">
         <p className="text-xl font-montserrat text-coral-red">
@@ -29,7 +29,7 @@ const Hero = () => {
           Notre mission : Restaurer les âmes par la grâce et la foi.
         </p>
 
-        <Button label="Shop now" iconURL={arrowRight} />
+        <Button label="Se connecter" iconURL={arrowRight} />
 
         <div className="flex justify-start items-start flex-wrap w-full mt-20 gap-16">
           {statistics.map((stat, index) => (

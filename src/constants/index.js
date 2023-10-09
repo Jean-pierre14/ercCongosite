@@ -21,35 +21,31 @@ import {
   thumbnailShoe3,
 } from "../assets/images";
 
+import masasu from "../assets/images/masasu.png";
+import bisimwa from "../assets/images/bisimwa.jpg";
+import coupleMasasu from "../assets/images/coupleMasasu.png";
+
 export const navLinks = [
   { href: "#home", label: "Accueil" },
-  { href: "#about-us", label: "À propos de nous" },
-  { href: "#products", label: "Services et horaires" },
+  { href: "#pasteurs", label: "Nos Pasteurs" },
   // { href: "#Enseignement", label: "Enseignement" },
   { href: "#Ministères ", label: "Ministères " },
   { href: "#Événements  ", label: "Événements  " },
+  { href: "#products", label: "Services et horaires" },
   // { href: "#contact-us", label: "Contact Nous" },
 ];
 
-export const shoes = [
-  {
-    thumbnail: thumbnailShoe1,
-    bigShoe: bigShoe1,
-  },
-  {
-    thumbnail: thumbnailShoe2,
-    bigShoe: bigShoe2,
-  },
-  {
-    thumbnail: thumbnailShoe3,
-    bigShoe: bigShoe3,
-  },
+export const statistics = [
+  { value: "1k+", label: "Fideles" },
+  { value: "500+", label: "Pasteurs" },
+  { value: "250k+", label: "Eglises" },
 ];
 
-export const statistics = [
-  { value: "1k+", label: "Brands" },
-  { value: "500+", label: "Shops" },
-  { value: "250k+", label: "Customers" },
+export const pasteurs = [
+  { imgURL: masasu, name: "Apotre Masasu Masengo", location: "Kigali" },
+  { imgURL: masasu, name: "Gabriel Masasu", location: "Gisenyi" },
+  { imgURL: "", name: "Valoi", location: "Gisenyi" },
+  { imgURL: coupleMasasu, name: "Bisimwa Grace", location: "Goma" },
 ];
 
 export const products = [

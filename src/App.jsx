@@ -1,7 +1,6 @@
 import { Nav } from "./components";
 import {
   Hero,
-  PopularProducts,
   SuperQuality,
   Services,
   SpecialOffer,
@@ -9,6 +8,7 @@ import {
   Subscribe,
   Footer,
 } from "./sections";
+import Pasteur from "./sections/Pasteur";
 
 const App = () => {
   return (
@@ -17,9 +17,11 @@ const App = () => {
       <section className="xl:padding-l wide:padding-r padding-b">
         <Hero />
       </section>
+
       <section className="padding">
-        <PopularProducts />
+        <Pasteur />
       </section>
+
       <section className="padding">
         <SuperQuality />
       </section>
