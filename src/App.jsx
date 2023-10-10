@@ -7,6 +7,7 @@ import {
   CustomerReviews,
   Subscribe,
   Footer,
+  Ministeres,
 } from "./sections";
 import Pasteur from "./sections/Pasteur";
 
@@ -20,6 +21,10 @@ const App = () => {
 
       <section className="padding">
         <Pasteur />
+      </section>
+
+      <section className="padding bg-slate-400 text-white">
+        <Ministeres />
       </section>
 
       <section className="padding">
