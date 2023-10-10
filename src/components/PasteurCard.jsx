@@ -1,13 +1,34 @@
 const PasteurCard = ({ imgURL, name, location }) => {
   return (
-    <div className="flex flex-1 flex-col w-full max-sm:w-full">
+    <div className="flex flex-1 flex-col hover:shadow-xl bg-[#fff] shadow-md justify-center p-3 rounded rounded-md w-full max-sm:w-full">
       <img src={imgURL} alt={name} className="w-[282px] h-[282px]" />
 
       <h3 className="mt-2 text-2xl leading-normal font-semibold font-palanquin">
         {name}
       </h3>
-      <p className="mt-2 font-semibold font-montserrat text-coral-red text-2xl leading-normal">
+      <p className="flex items-center mt-2 font-semibold font-montserrat text-coral-red text-2xl leading-normal">
         {location}
+        <span>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            class="w-6 h-6"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M15 10.5a3 3 0 11-6 0 3 3 0 016 0z"
+            />
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1115 0z"
+            />
+          </svg>
+        </span>
       </p>
     </div>
   );

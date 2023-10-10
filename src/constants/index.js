@@ -22,7 +22,7 @@ import {
 } from "../assets/images";
 
 import masasu from "../assets/images/masasu.png";
-import bisimwa from "../assets/images/bisimwa.jpg";
+import bisimwa from "../assets/images/bisimwa.jpeg";
 import coupleMasasu from "../assets/images/coupleMasasu.png";
 
 export const navLinks = [
@@ -44,7 +44,7 @@ export const statistics = [
 export const pasteurs = [
   { imgURL: masasu, name: "Apotre Masasu Masengo", location: "Kigali" },
   { imgURL: masasu, name: "Gabriel Masasu", location: "Gisenyi" },
-  { imgURL: "", name: "Valoi", location: "Gisenyi" },
+  { imgURL: bisimwa, name: "Valoi", location: "Gisenyi" },
   { imgURL: coupleMasasu, name: "Bisimwa Grace", location: "Goma" },
 ];
 
