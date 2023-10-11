@@ -8,6 +8,7 @@ import {
   Subscribe,
   Footer,
   Ministeres,
+  Vision,
 } from "./sections";
 import Pasteur from "./sections/Pasteur";
 
@@ -19,11 +20,15 @@ const App = () => {
         <Hero />
       </section>
 
+      <section className="padding bg-">
+        <Vision />
+      </section>
+
       <section className="padding">
         <Pasteur />
       </section>
 
-      <section className="padding bg-slate-400 text-white">
+      <section className="padding md:mt-[100px] bg-slate-400 text-white">
         <Ministeres />
       </section>
 

@@ -6,9 +6,11 @@ import CustomerReviews from "./CustomerReviews";
 import Subscribe from "./Subscribe";
 import Footer from "./Footer";
 import Ministeres from "./Ministeres";
+import Vision from "./Vision";
 import { pasteurs } from "../constants";
 
 export {
+  Vision,
   Ministeres,
   Hero,
   pasteurs,
