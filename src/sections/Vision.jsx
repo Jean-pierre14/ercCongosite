@@ -22,7 +22,7 @@ const Vision = () => {
           <div className="flex-1">
             <img
               src={mision}
-              alt="Image"
+              alt="Image Vision"
               className="w-full rounded rounded-lg w-[500px]"
             />
           </div>
