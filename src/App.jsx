@@ -13,7 +13,7 @@ import Pasteur from "./sections/Pasteur";
 
 const App = () => {
   return (
-    <main className="relative">
+    <main className="scroll-smooth focus:scroll-auto relative">
       <Nav />
       <section className="xl:padding-l wide:padding-r padding-b">
         <Hero />

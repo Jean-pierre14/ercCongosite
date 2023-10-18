@@ -8,6 +8,8 @@ import Vision from "./Vision";
 import { pasteurs } from "../constants";
 import Testimonial from "./Testimonial";
 import Strategies from "./Strategies";
+import strategie1 from "../assets/images/ercImages/strategie1.jpg";
+import strategie2 from "../assets/images/ercImages/strategie2.jpg";
 
 export {
   Vision,
@@ -20,4 +22,6 @@ export {
   Strategies,
   Subscribe,
   Footer,
+  strategie1,
+  strategie2,
 };
