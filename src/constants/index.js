@@ -75,35 +75,36 @@ export const services = [
   {
     imgURL: truckFast,
     label: "Free shipping",
-    subtext: "Enjoy seamless shopping with our complimentary shipping service.",
+    subtext:
+      "Dispenser des enseignements bibliques lors des cultes et des réunions religieuses. Prêcher la Parole de Dieu pour nourrir spirituellement la congrégation",
   },
   {
     imgURL: shieldTick,
     label: "Secure Payment",
     subtext:
-      "Experience worry-free transactions with our secure payment options.",
+      "Dispenser des enseignements bibliques lors des cultes et des réunions religieuses. Prêcher la Parole de Dieu pour nourrir spirituellement la congrégation",
   },
   {
     imgURL: support,
-    label: "Love to help you",
-    subtext: "Our dedicated team is here to assist you every step of the way.",
+    label: "L'amour du prochain",
+    subtext: "Jesus-Christ nous a dit de nous aimer les uns aux autres.",
   },
 ];
 
 export const reviews = [
   {
-    imgURL: customer1,
-    customerName: "Morich Brown",
-    rating: 4.5,
+    imgURL: masasu,
+    customerName: "Apotre Masasu",
+    rating: "Rwanda, Kigali",
     feedback:
-      "The attention to detail and the quality of the product exceeded my expectations. Highly recommended!",
+      "Les Épîtres : Les lettres écrites par les apôtres du Nouveau Testament, comme Paul, Pierre, Jean et Jacques, contiennent également des témoignages et des enseignements sur Jésus-Christ.",
   },
   {
-    imgURL: customer2,
-    customerName: "Lota Mongeskar",
-    rating: 4.5,
+    imgURL: coupleMasasu,
+    customerName: "Couple Masasu",
+    rating: "Rwanda, Kigali",
     feedback:
-      "The product not only met but exceeded my expectations. I'll definitely be a returning customer!",
+      "Les Actes des Apôtres : Le livre des Actes, également dans le Nouveau Testament, raconte les débuts de l'Église chrétienne après la résurrection de Jésus et la descente du Saint-Esprit sur les apôtres.",
   },
 ];
 

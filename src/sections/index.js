@@ -1,13 +1,13 @@
 import Hero from "./Hero";
 import SuperQuality from "./SuperQuality";
 import Services from "./Services";
-import SpecialOffer from "./SpecialOffer";
-import CustomerReviews from "./CustomerReviews";
 import Subscribe from "./Subscribe";
 import Footer from "./Footer";
 import Ministeres from "./Ministeres";
 import Vision from "./Vision";
 import { pasteurs } from "../constants";
+import Testimonial from "./Testimonial";
+import Strategies from "./Strategies";
 
 export {
   Vision,
@@ -16,8 +16,8 @@ export {
   pasteurs,
   SuperQuality,
   Services,
-  SpecialOffer,
-  CustomerReviews,
+  Testimonial,
+  Strategies,
   Subscribe,
   Footer,
 };

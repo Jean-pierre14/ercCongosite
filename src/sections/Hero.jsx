@@ -1,9 +1,11 @@
 import { useState } from "react";
+import Typist from "react-typist";
 
 import { statistics } from "../constants";
 import { Button } from "../components";
 import { bigShoe1 } from "../assets/images";
 import { arrowRight } from "../assets/icons";
+import { AOS } from "aos";
 
 const Hero = () => {
   const [bigShoeImg, setBigShoeImg] = useState(bigShoe1);
@@ -13,7 +15,10 @@ const Hero = () => {
       id="home"
       className="w-full flex xl:flex-row flex-col justify-center min-h-screen gap-10 max-w-[1240px] mx-auto"
     >
-      <div className="relative xl:w-2/5 flex flex-col justify-center items-start w-full  max-xl:padding-x mx-auto pt-28">
+      <div
+        data-aos="fade-left"
+        className="relative xl:w-2/5 flex flex-col justify-center items-start w-full  max-xl:padding-x mx-auto pt-28"
+      >
         <p className="text-xl font-montserrat text-coral-red">
           L'eglise de Jesus-Christ
         </p>
@@ -45,6 +50,7 @@ const Hero = () => {
 
       <div className="relative flex-1 flex justify-center items-center xl:min-h-screen max-xl:py-40 bg-center">
         <img
+          data-aos="fade-right"
           src={bigShoeImg}
           alt="shoe colletion"
           width={610}

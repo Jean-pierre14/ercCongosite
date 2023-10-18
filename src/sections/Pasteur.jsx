@@ -5,7 +5,7 @@ const Pasteur = () => {
   return (
     <section id="pasteurs" className="max-w-[1240px] mx-auto max-sm:mt-24">
       <div className="flex flex-col justify-start gap-5">
-        <h2 className="text-4xl font-palanquin font-bold">
+        <h2 className="text-4xl uppercase text-gray-500 font-palanquin font-bold">
           Nos <span className="text-coral-red"> Pasteurs </span> dans le monde
         </h2>
         <p className="lg:max-w-lg mt-2 font-montserrat text-slate-gray">
